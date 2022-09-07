@@ -90,6 +90,7 @@ body {
     padding-bottom: 32px;
     padding-left: 0;
     margin-left: auto;
+
 }
 
 .link {
@@ -104,21 +105,26 @@ body {
     margin-left: 0;
 }
 
-
 .top-contacts .contact-link {
     padding-top: 32px;
     padding-bottom: 32px;
-    
+
     color: var(--add-text-color);
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 
+.contact-link .icon-link {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
 .top-contacts .contact-link:hover,
-.top-contacts .contact-link:focus,
-.top-contacts .contact-link:active {
+.top-contacts .contact-link:focus
+{
     color: var(--blue-text-color);
+    fill: var(--blue-text-color);
 }
 
 .nav-menu .nav-link {
@@ -129,7 +135,6 @@ body {
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.02em;
-    
 }
 
 .nav-link.current {
@@ -171,8 +176,13 @@ body {
 .hero-section {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--hero-footer-bgd);
-    align-self: center;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/img/hero.jpg");
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-box {
@@ -182,7 +192,6 @@ body {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-
 }
 
 .hero-title {
@@ -245,6 +254,22 @@ body {
     margin-left: 0px;
 }
 
+.skills-logo {
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--add-bgd);
+
+}
+
+.skill-logo {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Works section */
 
@@ -461,3 +486,4 @@ body {
 .work-card > img {
     display: block;
 }
+
