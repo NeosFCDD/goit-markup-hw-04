@@ -363,9 +363,9 @@ body {
     margin-right: 0;
 }
 
-/* .sr-link {
+.sr-link {
     fill: var(--link-color);
-} */
+}
 
 .contact-box:hover,
 .contact-box:focus {
@@ -374,11 +374,11 @@ body {
     color: var(--white-text-color);
 }
 
-/* .sr-link:hover,
+.sr-link:hover,
 .sr-link:focus {
     background-color: var(--button-active-bgd);
     fill: var(--white-text-color);
-} */
+}
 
 
 /* Footer section */
