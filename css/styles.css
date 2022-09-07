@@ -11,6 +11,7 @@
     --add-bgd:#F5F4FA;
     --button-active-bgd:#2196F3;
     --stroke-color:#EEEEEE;
+    --link-color:#AFB1B8;
 }
 
 h1,
@@ -277,7 +278,6 @@ body {
     text-align: center;
 }
 
-
 .works-img-list {
     display: flex;
     padding-left: 0;
@@ -299,7 +299,6 @@ body {
     background-color: var(--add-bgd);
     text-align: center;
 }
-
 
 .second-header {
     font-weight: 700;
@@ -331,12 +330,56 @@ body {
 
 .team-mate > p {
     margin-top: 10px;
-    padding-bottom: 30px;
 }
 
 .team-mate p {
     color: var(--add-text-color);
 }
+
+.team-contact {
+    display: flex;
+    flex-direction: row;
+    width: 206px;
+    height: 44px;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+    fill: var(--link-color);
+}
+
+.contact-box:last-child {
+    margin-right: 0;
+}
+
+/* .sr-link {
+    fill: var(--link-color);
+} */
+
+.contact-box:hover,
+.contact-box:focus {
+    cursor: pointer;
+    background-color: var(--button-active-bgd);
+    color: var(--white-text-color);
+}
+
+/* .sr-link:hover,
+.sr-link:focus {
+    background-color: var(--button-active-bgd);
+    fill: var(--white-text-color);
+} */
+
 
 /* Footer section */
 
