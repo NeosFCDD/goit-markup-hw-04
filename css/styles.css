@@ -179,7 +179,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: var(--hero-footer-bgd);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("https: //github.com/NeosFCDD/goit-markup-hw-04/blob/main/img/hero.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url("/img/hero.jpg");
     background-size: 1600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -413,7 +414,6 @@ body {
     cursor: pointer;
 }
 
-
 .client-card:hover,
 .client-card:focus {
     border: 1px solid var(--button-active-bgd);
@@ -424,15 +424,17 @@ body {
     fill: currentColor;
 }
 
-/* .client-link:hover,
-.client-link:focus {
-    fill: var(--button-active-bgd);
-} */
 
 /* Footer section */
 
+
 .footer {
     background-color: var(--hero-footer-bgd);
+}
+
+.footer>.container {
+    display: flex;
+    flex-direction: row;
 }
 
 .footer-data .footer-address {
@@ -481,6 +483,59 @@ body {
 .footer-contacts {
     display: block;
     margin-top: 9px;
+}
+
+.footer-box {
+    width: 231px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    width: 206px;
+    height: 80px;
+    color: var(--white-text-color);
+    padding-top: 72px;
+    margin-left: 70px;
+}
+
+.footer-links > p {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.site-links {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.site-links > li {
+    margin-right: 10px;
+}
+
+.site-links>li:last-child {
+    margin-right: 0;
+}
+
+.link-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white-text-color);
+}
+
+.sr-link {
+    fill: currentColor;
+}
+
+.link-box:hover,
+.link-box:focus {
+    background-color: var(--button-active-bgd);
 }
 
 /* PORTFOLIO PAGE */
