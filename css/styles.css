@@ -70,11 +70,14 @@ body {
 
 /* Header section */
 
+.header {
+    border-bottom: 1px solid var(--stroke-color);
+}
+
 .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--stroke-color);
 }
 
 .nav-menu {
