@@ -94,7 +94,6 @@ body {
     padding-bottom: 32px;
     padding-left: 0;
     margin-left: auto;
-
 }
 
 .link {
@@ -110,8 +109,8 @@ body {
 }
 
 .top-contacts .contact-link {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
 
     color: var(--add-text-color);
     text-decoration: none;
